@@ -23,4 +23,4 @@ Suspension_Coil1 <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summariz
                                                                                   .groups = 'keep')
 
 
-t.test(Manufacturing_lot, mu=mean(PSI))
+t.test(Manufacturing_Lot, mu=mean(PSI))
